@@ -13,6 +13,6 @@ This website is for viewing and demoing purposes only.
 
 - Servers?
 
-- Finish up the rest of the components
+- Finish up rest of the components
 
 - Needs URL/Domain name
