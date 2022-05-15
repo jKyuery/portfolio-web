@@ -9,7 +9,7 @@ https://github.com/tbakerx/react-resume-template
 This website is for viewing and demoing purposes only. 
 
 
-# TODO
+## TODO
 
 Servers?
 
