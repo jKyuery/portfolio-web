@@ -11,8 +11,8 @@ This website is for viewing and demoing purposes only.
 
 ## TODO
 
-Servers?
+- Servers?
 
-Finish up the rest of the components
+- Finish up the rest of the components
 
-Needs URL/Domain name
+- Needs URL/Domain name
