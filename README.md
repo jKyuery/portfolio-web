@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This website was created with node.js and bootstrap.
+This website was created with node.js and react.
 
 Credit goes to Tim Baker for the website template.
 
