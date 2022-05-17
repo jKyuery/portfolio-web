@@ -2,9 +2,9 @@
 
 ## Description
 
-This website was created with node.js and react.
+This website was developed using node.js and react.
 
-This website is for viewing and demoing purposes only. 
+Website is currently undergoing building.
 
 
 ## TODO
@@ -16,8 +16,6 @@ This website is for viewing and demoing purposes only.
 - Needs URL/Domain name
 
 ## Credits
-
-Tim Baker for the website template
 
 #### Template
 
