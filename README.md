@@ -4,14 +4,12 @@
 
 This website was developed using node.js and react.
 
-Website is currently undergoing building.
+Website is currently undergoing development.
 
 
 ## TODO
 
 - Servers?
-
-- Finish up rest of the components
 
 - Needs URL/Domain name
 
