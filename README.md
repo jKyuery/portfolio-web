@@ -17,4 +17,4 @@ Website is currently undergoing development.
 
 #### Template
 
-<a href="(https://github.com/tbakerx/react-resume-template)">Tim Baker's website template</a>
+<a href="https://github.com/tbakerx/react-resume-template">Tim Baker's website template</a>
