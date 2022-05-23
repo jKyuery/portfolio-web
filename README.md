@@ -13,6 +13,8 @@ Website is currently undergoing development.
 
 - Needs URL/Domain name
 
+- Modify parameters to match personal info
+
 ## Credits
 
 #### Template
