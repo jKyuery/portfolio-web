@@ -13,10 +13,8 @@ Website is currently undergoing development.
 
 - Needs URL/Domain name
 
-- Modify parameters to match personal info
-
 ## Credits
 
 #### Template
 
-<a href="https://www.styleshout.com/free-templates/ceevee/">Tim Baker's website template</a>
+<a href="(https://github.com/tbakerx/react-resume-template)">Tim Baker's website template</a>
