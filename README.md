@@ -2,19 +2,21 @@
 
 ## Description
 
-This website was developed using node.js and react.
+This website was developed using node.js and react. (and soon to be flask for backend hosting)
 
 Website is currently undergoing development.
 
 
 ## TODO
 
-- Servers?
+- Servers (Host using Flask)
 
 - Needs URL/Domain name
+
+- Modify parameters with personal info
 
 ## Credits
 
 #### Template
 
-<a href="https://www.styleshout.com/free-templates/ceevee/">Tim Baker's website template</a>
+<a href="https://github.com/tbakerx/react-resume-template">Tim Baker's website template</a>
