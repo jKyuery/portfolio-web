@@ -41,35 +41,43 @@
     "skills": [
       {
         "name": "Git",
-        "description": "I use git for all projects. I used this during Hackathons, personal projects, and group projects."
+        "description": "I use git for all projects. I used this during Hackathons, personal projects, and group projects.",
+        "image": "Git-logo.svg"
       },
       {
         "name": "Python",
-        "description": "The language I am most familiar with, I use this language primarily for Machine Learning and Scripting."
+        "description": "The language I am most familiar with, I use this language primarily for Machine Learning and Scripting.",
+        "image": "Python-logo.svg"
       },
       {
         "name": "C++",
-        "description": "My first ever programming language upon entering University. Due to this being my very first official language, it allowed me to familiarize myself with the basics and fundamentals of Computer Science, as well as Object Oriented Programming."
+        "description": "My first ever programming language upon entering University. Due to this being my very first official language, it allowed me to familiarize myself with the basics and fundamentals of Computer Science, as well as Object Oriented Programming.",
+        "image": "C++_logo.svg"
       },
       {
         "name": "Java",
-        "description": "My second programming language. The language allowed me to familiarize myself with data structure and algorithmic programming more easily."
+        "description": "My second programming language. The language allowed me to familiarize myself with data structure and algorithmic programming more easily.",
+        "image": "java-icon.svg"
       },
       {
         "name": "R",
-        "description": "This language allows me to model and analyze a dataset as well as do some data crunching."
+        "description": "This language allows me to model and analyze a dataset as well as do some data crunching.",
+        "image": "R_logo.svg"
       },
       {
         "name": "React JS",
-        "description": "React JS is used for the front-end of my personal portfolio website development."
+        "description": "React JS is used for the front-end of my personal portfolio website development.",
+        "image": "React-icon.svg"
       },
       {
         "name": "JavaScript",
-        "description": "JavaScript is my self-taught language. Although I am not familiar with this language, I primarily use it for website development."
+        "description": "JavaScript is my self-taught language. Although I am not familiar with this language, I primarily use it for website development.",
+        "image": "JavaScript_logo_2.svg"
       },
       {
         "name": "SQL",
-        "description": "SQL is primarily used for schema querying or database analysis."
+        "description": "SQL is primarily used for schema querying or database analysis.",
+        "image": "mysql-ar21.svg"
       }
     ]
   },
