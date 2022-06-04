@@ -22,9 +22,12 @@ class Resume extends Component{
             // })
 
             var skills = this.props.data.skills.map(function(skills){
-                var className = 'bar-expand' + skills.name;
-
-                return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
+                var projectImage = 'images/tech/' + skills.image;
+                return <div key={skills.name} className = "columns feature-item">
+                    <img className='skill' alt={skills.name} src = {projectImage}/>
+                    <h5>{skills.name}</h5>
+                    <p>{skills.description}</p>
+                </div>
             })
 
         }
@@ -66,13 +69,12 @@ class Resume extends Component{
                     </div>
                 
                 <div className='nine columns main-col'>
-                    <p>{skillmessage}</p>
-
-                    <div className='bars'>
-                        <ul className='skills'>
-                            {skills}
-                        </ul>
-                    </div>
+                    <p className='lead center'>
+                        {skillmessage}
+                    </p>
+                    <ul className='bgrid-quarters s-bgrid thirds cf'>
+                        {skills}
+                    </ul>
                 </div>
             </div>
 

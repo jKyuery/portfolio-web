@@ -42,42 +42,42 @@
       {
         "name": "Git",
         "description": "I use git for all projects. I used this during Hackathons, personal projects, and group projects.",
-        "image": "Git-logo.svg"
+        "image": "Git-logo.png"
       },
       {
         "name": "Python",
         "description": "The language I am most familiar with, I use this language primarily for Machine Learning and Scripting.",
-        "image": "Python-logo.svg"
+        "image": "Python-logo.jpg"
       },
       {
         "name": "C++",
         "description": "My first ever programming language upon entering University. Due to this being my very first official language, it allowed me to familiarize myself with the basics and fundamentals of Computer Science, as well as Object Oriented Programming.",
-        "image": "C++_logo.svg"
+        "image": "cpp-logo.png"
       },
       {
         "name": "Java",
         "description": "My second programming language. The language allowed me to familiarize myself with data structure and algorithmic programming more easily.",
-        "image": "java-icon.svg"
+        "image": "java-icon.png"
       },
       {
         "name": "R",
         "description": "This language allows me to model and analyze a dataset as well as do some data crunching.",
-        "image": "R_logo.svg"
+        "image": "R_logo.jpg"
       },
       {
         "name": "React JS",
         "description": "React JS is used for the front-end of my personal portfolio website development.",
-        "image": "React-icon.svg"
+        "image": "React-icon.jpg"
       },
       {
         "name": "JavaScript",
         "description": "JavaScript is my self-taught language. Although I am not familiar with this language, I primarily use it for website development.",
-        "image": "JavaScript_logo_2.svg"
+        "image": "JavaScript_logo_2.jpg"
       },
       {
         "name": "SQL",
         "description": "SQL is primarily used for schema querying or database analysis.",
-        "image": "mysql-ar21.svg"
+        "image": "mysql.png"
       }
     ]
   },

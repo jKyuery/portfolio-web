@@ -7,7 +7,7 @@ class Projects extends Component {
                 var projectImage = 'images/portfolio/' + projects.image;
                 return <div key={projects.title} className = "columns project-item">
                     <div className="item-wrap">
-                        <a href={projectImages.url} title={projects.title}>
+                        <a href={projectImage.url} title={projects.title}>
                             <img alt={projects.title} src={projectImage} />
                             <div className="overlay">
                                 <div className="project-item-meta">
@@ -26,7 +26,7 @@ class Projects extends Component {
             <section id = "portfolio">
                 <div className="row">
                     <div className="twelve columns collapsed">
-                        <h1>My Projects below.</h1>
+                        <h1>My projects</h1>
 
                         <div id = "projects-wrapper" className ="bgrid-quarters s-bgrid-thirds cf">
                             {projects}
