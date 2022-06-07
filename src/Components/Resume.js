@@ -68,11 +68,13 @@ class Resume extends Component{
                         <h1><span>Skills</span></h1>
                     </div>
                 
-                <div className='nine columns main-col'>
-                    <p className='lead center'>
-                        {skillmessage}
-                    </p>
-                    <ul className='bgrid-quarters s-bgrid thirds cf'>
+                <div>
+                    <div className='nine columns main-col'>
+                        <p className='lead center'>
+                            {skillmessage}
+                        </p>
+                    </div>
+                    <ul className='bgrid-quarters s-bgrid-thirds cf'>
                         {skills}
                     </ul>
                 </div>
