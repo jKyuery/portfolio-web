@@ -11,7 +11,7 @@ Website is currently undergoing development.
 
 - Servers (Host using Flask)
 
-- Needs URL/Domain name
+- Needs URL/Domain host
 
 ## Credits
 
