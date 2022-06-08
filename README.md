@@ -2,7 +2,7 @@
 
 ## Description
 
-This website was developed using node.js and react. (and soon to be flask for backend hosting)
+This website was developed using react. (and soon to be flask for backend hosting)
 
 Website is currently undergoing development.
 
