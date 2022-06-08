@@ -7,10 +7,13 @@
 }
 
 .feature-item{
-  text-align: center;
-  margin-top:2.5em;
-  padding-left:2em;
-  padding-right:2em;
+  margin-top: 2.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 450px;
 }
 
 .center{

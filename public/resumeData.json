@@ -29,7 +29,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here are some of the programming languages I have learned and used.",
+    "skillmessage": "Here are some of the technologies I have learned about.",
     "education": [
       {
         "school": "The University of Texas at Dallas",
@@ -61,7 +61,7 @@
       },
       {
         "name": "R",
-        "description": "This language allows me to model and analyze a dataset as well as do some data crunching.",
+        "description": "This language allows me to model and analyze a dataset as well as do some data crunching. Due to the nature of my classes, I have at least 2 years of experience with this language.",
         "image": "R_logo.jpg"
       },
       {
