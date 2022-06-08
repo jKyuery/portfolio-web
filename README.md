@@ -13,8 +13,6 @@ Website is currently undergoing development.
 
 - Needs URL/Domain name
 
-- Resize skill for neatness
-
 ## Credits
 
 #### Template
