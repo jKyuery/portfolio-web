@@ -7,10 +7,10 @@ class About extends Component {
             var name = this.props.data.name;
             // var profilepic = "images/" + this.props.data.image;
             var bio = this.props.data.bio;
-            var street = this.props.data.street;
-            var city = this.props.data.city;
-            var state = this.props.data.state;
-            var zip = this.props.data.zip;
+            //var street = this.props.data.street;
+            // var city = this.props.data.city;
+            // var state = this.props.data.state;
+            // var zip = this.props.data.zip;
             var phone = this.props.data.phone;
             var email = this.props.data.email;
             var resumeDownload = this.props.data.resumedownload;
@@ -31,10 +31,10 @@ class About extends Component {
                         <div className="columns contact-details">
                             <h2>Contact Details</h2>
                             <p className = "address">
-                                <span>{name}</span><br/>
-                                <span>{street}<br/>
-                                      {city} {state}, {zip}
-                                </span><br/>
+                                {/* <span>{name}</span><br/>
+                                <span>{city}<br/>
+                                      {state}, {zip}
+                                </span><br/> */}
                                 <span>{phone}</span><br/>
                                 <span>{email}</span>
                             </p>
