@@ -13,7 +13,7 @@ Website is currently undergoing development.
 
 - Needs URL/Domain name
 
-- Resize skill paragraph for readability and neatness
+- Resize skill for neatness
 
 ## Credits
 
