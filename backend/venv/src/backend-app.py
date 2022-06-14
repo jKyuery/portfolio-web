@@ -1,3 +1,4 @@
+from doctest import debug_script
 import os
 from flask import Flask, render_template, request, url_for, flash, redirect 
 
@@ -11,6 +12,8 @@ app.config['SECRET_KEY'] = key
 msgs = [{'name': 'name', 'email':'email', 'message':'message', 'subject':'subject'}]
 
 # should probably cover for edge cases
+
+## TODO: Get values from front-end and send e-mail based on values ##
 
 @app.route('/Contact/', methods=('GET', 'POST'))
 def contact():
@@ -31,6 +34,9 @@ def contact():
             msgs.append({'name':name, 'email':email, 'message':message, 'subject':subject})
         else:
             msgs.append({'name':name, 'email':email, 'message':message})
-            return redirect(url_for('index'))
+            
 
-    return render_template('index.html')
+    return msgs
+
+if __name__ == "__main__":
+    app.run(debug=True)
