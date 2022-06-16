@@ -19,7 +19,6 @@ def contact():
     c_name = request.json['name']
     c_email = request.json['email']
     c_msg = request.json['message']
-
     #c_sbj = request.json['subject'] ## optional
 
     contact = msgs(
@@ -29,7 +28,7 @@ def contact():
         #subject = c_sbj
     )
 
-    return 
+    return jsonify(contact)
 
 
 if __name__ == "__main__":
