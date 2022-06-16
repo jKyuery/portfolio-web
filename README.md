@@ -9,7 +9,7 @@ Website is currently undergoing development.
 
 ## TODO
 
-- Servers (Host using Flask)
+- Backend (Using Flask)
 
 - Needs URL/Domain host
 
