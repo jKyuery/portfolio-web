@@ -44,6 +44,21 @@ class Contact extends Component{
         this.state({contact:contact});
     }
 
+    handleSubmit(event){
+        console.log("making request") // for debugging
+        fetch("/Contacts",{
+            method: "POST",
+            cache: "no-cache",
+            headers: {
+                "content_type": "application/json"
+            },
+            body:JSON.stringify(this.state.contact)
+
+        }).then(response =>{
+            return response.json()
+        })
+    }
+
     render(){
 
         if(this.props.data){
@@ -70,7 +85,7 @@ class Contact extends Component{
 
                 <div className='row'>
                     <div className='eight columns'>
-                        <form action='' method='post' id='contactForm' name='contactForm'>
+                        <form onSubmit={this.handleSubmit} action="http://localhost:5000/Contacts" method='post' id='contactForm' name='contactForm'>
                             <fieldset>
                                 <div>
                                     <label htmlFor='contactName'>Name<span className='required'>*</span></label>
