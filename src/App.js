@@ -2,11 +2,12 @@ import React, {Component} from "react";
 import ReactGA from "react-ga";
 import $ from "jquery";
 import "./App.css";
+import axios from "axios";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
 import Resume from "./Components/Resume";
-import Contact from "./Components/Contact";
+// import Contact from "./Components/Contact";
 import Projects from "./Components/Projects";
 
 class App extends Component {
@@ -18,6 +19,10 @@ class App extends Component {
 
     ReactGA.initialize('UA-110570651-1');
     ReactGA.pageview(window.location.pathname);
+  }
+
+  function(){
+
   }
 
   getResumeData(){
@@ -48,7 +53,7 @@ class App extends Component {
         <About data = {this.state.resumeData.main}/>
         <Resume data = {this.state.resumeData.resume}/>
         <Projects data = {this.state.resumeData.projects}/>
-        <Contact data = {this.state.resumeData.main}/>
+        {/* <Contact data = {this.state.resumeData.main}/> */}
         <Footer data = {this.state.resumeData.main}/>
       </div>
     )

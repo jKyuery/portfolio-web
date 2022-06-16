@@ -44,22 +44,6 @@ class Contact extends Component{
         this.setState({contact:contact});
     }
 
-    // TODO: Send input data to flask backend
-    // handleSubmit(event){
-    //     console.log("making request") // for debugging
-    //     fetch("/",{
-    //         method: "POST",
-    //         cache: "no-cache",
-    //         headers: {
-    //             "content_type": "application/json"
-    //         },
-    //         body:JSON.stringify(this.state.contact)
-
-    //     }).then(response =>{
-    //         return response.json()
-    //     })
-    // }
-
     render(){
 
         if(this.props.data){
@@ -86,7 +70,7 @@ class Contact extends Component{
 
                 <div className='row'>
                     <div className='eight columns'>
-                        <form onSubmit = {this.handleSubmit} action="" method='POST' id='contactForm' name='contactForm'>
+                        <form onSubmit = {this.handleSubmit} action="#" method='POST' id='contactForm' name='contactForm'>
                             <fieldset>
                                 <div>
                                     <label htmlFor='contactName'>Name<span className='required'>*</span></label>

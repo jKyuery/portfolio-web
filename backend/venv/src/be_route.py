@@ -1,13 +1,8 @@
-from doctest import debug_script
 import os, smtplib
-from unicodedata import name
 from flask import Flask, request, render_template
 from email.mime import multipart
 
 app = Flask(__name__)
-
-# required fields: message, name, email, subject is optional
-# msgs = [{'name': 'name', 'email':'email', 'message':'message', 'subject':'subject'}]
 
 # should probably cover for edge cases
 
@@ -17,14 +12,14 @@ app = Flask(__name__)
 
 ## TODO: Get values from front-end and send e-mail based on values ##
 def send_mail(email, password, FROM, TO, msg):
-    server = smtplib.SMTP("",)
+    server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
     server.login(email, password)
     server.sendmail(FROM, TO, msg.as_string())
     server.quit()
 
 @app.route("/", methods = ["POST", "GET"])
-def contact():
+def index():
     # Get form data from react.js frontend
     # if request.method == "GET":
         
@@ -50,7 +45,7 @@ def contact():
             m.attach(msg)
             
             # Send email given the form data // NOTE: will test on some dummy email for testing
-            send_mail("", "", email, "", m)
+            send_mail("fromkj124@gmail.com", os.getenv("PW"), email, "fromkj124@gmail.com", m)
             success = "Message sent successfully"
             return render_template('index.html', success_statement = success)
         
