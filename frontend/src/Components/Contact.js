@@ -27,21 +27,21 @@ class Contact extends Component{
         var contact = this.state.contact;
         contact.contactMsg = event.target.value;
 
-        this.state({contact: contact});
+        this.setState({contact: contact});
     }
 
     handleSbjChange(event){
         var contact = this.state.contact;
         contact.contactSbj = event.target.value;
 
-        this.state({contact:contact});
+        this.setState({contact:contact});
     }
 
     handleMailChange(event){
         var contact = this.state.contact;
         contact.contactEmail = event.target.value;
 
-        this.state({contact:contact});
+        this.setState({contact:contact});
     }
 
     handleSubmit(event){

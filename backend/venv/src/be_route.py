@@ -1,5 +1,6 @@
 from doctest import debug_script
 import os
+from unicodedata import name
 from flask import Flask, render_template, request, jsonify, send_from_directory
 app = Flask(__name__)
 
@@ -15,7 +16,20 @@ msgs = [{'name': 'name', 'email':'email', 'message':'message', 'subject':'subjec
 ## TODO: Get values from front-end and send e-mail based on values ##
 @app.route("/Contacts", methods = ["POST"])
 def contact():
-    contact_name = request.json['name']
+    c_name = request.json['name']
+    c_email = request.json['email']
+    c_msg = request.json['message']
+
+    #c_sbj = request.json['subject'] ## optional
+
+    contact = msgs(
+        name = c_name,
+        email = c_email,
+        message = c_msg,
+        #subject = c_sbj
+    )
+
+    return 
 
 
 if __name__ == "__main__":
