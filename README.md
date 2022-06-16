@@ -2,14 +2,12 @@
 
 ## Description
 
-This website was developed using react. (and soon to be flask for backend hosting)
-
-Website is currently undergoing development.
+This website was developed using react. ~~(and soon to be flask for backend hosting)~~
 
 
 ## TODO
 
-- Backend (Using Flask)
+~~- Backend (Using Flask)~~
 
 - Needs URL/Domain host
 
