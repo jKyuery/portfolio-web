@@ -45,20 +45,20 @@ class Contact extends Component{
     }
 
     // TODO: Send input data to flask backend
-    handleSubmit(event){
-        console.log("making request") // for debugging
-        fetch("/",{
-            method: "POST",
-            cache: "no-cache",
-            headers: {
-                "content_type": "application/json"
-            },
-            body:JSON.stringify(this.state.contact)
+    // handleSubmit(event){
+    //     console.log("making request") // for debugging
+    //     fetch("/",{
+    //         method: "POST",
+    //         cache: "no-cache",
+    //         headers: {
+    //             "content_type": "application/json"
+    //         },
+    //         body:JSON.stringify(this.state.contact)
 
-        }).then(response =>{
-            return response.json()
-        })
-    }
+    //     }).then(response =>{
+    //         return response.json()
+    //     })
+    // }
 
     render(){
 
