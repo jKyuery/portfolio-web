@@ -45,7 +45,7 @@ def index():
             m.attach(msg)
             
             # Send email given the form data // NOTE: will test on some dummy email for testing
-            send_mail("fromkj124@gmail.com", os.getenv("PW"), email, "fromkj124@gmail.com", m)
+            send_mail("", os.getenv("PW"), email, "", m)
             success = "Message sent successfully"
             return render_template('index.html', success_statement = success)
         
