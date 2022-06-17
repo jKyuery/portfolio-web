@@ -83,7 +83,12 @@
   },
   "portfolio": {
     "projects": [
-
+      {
+        "title": "Portfolio Website",
+        "category": "My react based resume website",
+        "image": "readme_preview.png",
+        "url": "https://github.com/jKyuery/portfolio-web"
+      }
     ]
   }
 }
