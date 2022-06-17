@@ -2,7 +2,7 @@
 
 ## Description
 
-This website was developed using react. Deployment was done on Vercel.
+This website was developed using a ReactJS template. Deployment was done on Vercel.
 
 ## Credits
 
