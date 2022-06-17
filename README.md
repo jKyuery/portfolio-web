@@ -2,14 +2,7 @@
 
 ## Description
 
-This website was developed using react. ~~(and soon to be flask for backend hosting)~~
-
-
-## TODO
-
-~~- Backend (Using Flask)~~
-
-- Needs URL/Domain host
+This website was developed using a ReactJS template. Deployment was done on Vercel.
 
 ## Credits
 
