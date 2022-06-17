@@ -9,6 +9,6 @@ const port = process.env.PORT || 3000;
 app.use(express.static(publicPath));
 
 // This route serves the React app
-app.get('*', (req, res) => res.sendFile(path.resolve(publicPath, "index.html")));
+app.get('*', (req, res) => res.sendFile(path.join(publicPath, "index.html")));
 
 app.listen(port, () => console.log(`Server up!`));
