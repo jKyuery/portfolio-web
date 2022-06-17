@@ -1,8 +1,9 @@
 # Portfolio Website
 ![Web Preview](https://github.com/jKyuery/portfolio-web/blob/master/readme_preview.png?raw=true)
 
-<a href="https://portfolio-web-jkyuery.vercel.app">Check out the website!</a>
+<a href="https://portfolio-web-jkyuery.vercel.app">Check out the website in app form!</a>
 
+<a href="www.shimkyujin.world">Check out the actual website</a>
 ## Description
 
 This website was developed using a ReactJS template. Deployment was done on Vercel.
