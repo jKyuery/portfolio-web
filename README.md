@@ -8,10 +8,6 @@
 
 This website was developed using a ReactJS template. Deployment was done on Vercel.
 
-## TODO 
-
-- Fix project section (Make sure it works and is being displayed properly)
-
 ## Credits
 
 #### Template
