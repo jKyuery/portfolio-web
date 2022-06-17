@@ -1,4 +1,5 @@
 # Portfolio Website
+![Web Preview](https://github.com/jKyuery/portfolio-web/blob/master/readme_preview.png?raw=true)
 
 ## Description
 
