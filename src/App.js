@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import ReactGA from "react-ga";
+// import ReactGA from "react-ga";
 import $ from "jquery";
 import "./App.css";
 // import axios from "axios";
@@ -11,15 +11,15 @@ import Resume from "./Components/Resume";
 import Projects from "./Components/Projects";
 
 class App extends Component {
-  constructor(props){
-    super(props);
-    this.state = {
-      resumeData: {},
-    };
+  // constructor(props){
+  //   super(props);
+  //   this.state = {
+  //     resumeData: {},
+  //   };
 
-    ReactGA.initialize('UA-110570651-1');
-    ReactGA.pageview(window.location.pathname);
-  }
+  //   ReactGA.initialize('UA-110570651-1');
+  //   ReactGA.pageview(window.location.pathname);
+  // }
 
   getResumeData(){
     //const load = document.getElementById("siteLoading");
