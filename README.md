@@ -10,7 +10,7 @@ This website was developed using a ReactJS template. Deployment was done on Verc
 
 ## TODO 
 
-- Fix project section (Make sure it works and is beind displayed properly)
+- Fix project section (Make sure it works and is being displayed properly)
 
 ## Credits
 
