@@ -89,6 +89,11 @@
         "image": "readme_preview.png",
         "url": "https://github.com/jKyuery/portfolio-web"
       }
+      {
+        "title": "Medical analysis Project",
+        "category": "Analysis of Medical Datasets",
+        "url": "https://github.com/jKyuery/medical-dataset-analysis"
+      }
     ]
   }
 }
