@@ -94,6 +94,12 @@
         "category": "Analysis of Medical Datasets",
         "image": "medical-analysis.png",
         "url": "https://github.com/jKyuery/medical-dataset-analysis/tree/master"
+      },
+      {
+        "title": "Seoul Classifier",
+        "category": "Classifier of Public Buses in Seoul",
+        "image": "seoul-class-ph.png",
+        "url": "https://github.com/jKyuery/seoul-classifier"
       }
     ]
   }
