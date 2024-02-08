@@ -3,7 +3,7 @@
 
 <a href="https://portfolio-web-jkyuery.vercel.app">Check out the website in app form!</a>
 
-<a href="https://www.shimkyujin.world">Check out the actual website</a>
+<s><a href="https://www.shimkyujin.world">Check out the actual website</a></s> (WEB DOMAIN EXPIRED)
 ## Description
 
 This website was developed using a ReactJS template. Deployment was done on Vercel.
