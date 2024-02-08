@@ -35,6 +35,12 @@
         "degree": "Bachelors of Science in Data Science",
         "graduated": "May 2022",
         "description": "While attending, I have learned various technologies and skills pertaining to both Data Science and Computer Science, as well as settling on a career goal of being a Data Engineer."
+      },
+      {
+        "school":"The University of Texas at Dallas",
+        "degree":"Masters of Science in Bioinformatics and Computational Biology",
+        "graduated": "Expected Dec 2024",
+        "description": "The goal of my attendance is to see where I can apply my programming and analytical experience to a field I have never studied before."
       }
     ],  
     "skills": [
